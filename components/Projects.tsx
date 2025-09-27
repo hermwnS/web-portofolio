@@ -39,6 +39,15 @@ const projects: Project[] = [
     liveUrl: '#',
     sourceUrl: 'https://github.com/hermwnS/Anime-App.git',
   },
+  {
+    id: 5,
+    title: 'ToDo List App Sederhana',
+    description: 'aplikasi untuk mencatat kegiatan sehari-hari',
+    imageUrl: 'https://picsum.photos/seed/project4/500/300',
+    tags: ['Vue', 'Vite'],
+    liveUrl: '#',
+    sourceUrl: 'https://github.com/hermwnS/belajar-vue-js.git',
+  },
 ];
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
