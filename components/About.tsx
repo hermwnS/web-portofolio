@@ -18,7 +18,8 @@ const About: React.FC = () => {
           </div>
           <div className="md:w-2/3 text-lg text-gray-300">
             <p className="mb-4">
-              Saya senang merancang tampilan website yang praktis dan mudah dipahami oleh user. Saya memiliki sedikit pengalaman praktik kerja industri sebelumnya selama 4,5 bulan.
+              Saya senang merancang tampilan website yang praktis dan mudah dipahami oleh user. 
+              Saya memiliki sedikit pengalaman praktik kerja industri sebelumnya selama 4,5 bulan.
             </p>
             <p className="mb-4">
               Pengalaman praktik kerja industri pertama yaitu di PT. Laskar Teknologi Mulia (CyberLabs) selama 3 bulan mulai dari Januari 2020 - Maret 2020.
@@ -30,7 +31,7 @@ const About: React.FC = () => {
               adalah library python yang memudahkan pengembang dalam membangun tampilan website.
             </p>
             <p className="mb-4">
-              Selain itu juga saya saat ini sedang mengeksplor framework-framework lain seperti React.js, Vite, Tailwindcss, Vue.js, dan juga Angular.js agar saya dapat melihat bagaimana framework
+              Selain itu juga saya akan terus mengeksplor framework-framework lain seperti React.js, Vite, Tailwindcss, Vue.js, dan juga Angular.js agar saya dapat melihat bagaimana framework
               tersebut bekerja dan melihat bentuk dari susunan kode yang dipakai pada framework tersebut.
             </p>
           </div>
