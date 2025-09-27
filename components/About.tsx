@@ -24,12 +24,12 @@ const About: React.FC = () => {
               Pengalaman praktik kerja industri pertama yaitu di PT. Laskar Teknologi Mulia (CyberLabs) selama 3 bulan mulai dari Januari 2020 - Maret 2020.
               Di PT. Laskar Teknologi Mulia, saya diberi tugas mengerjakan web company profile dan web ecommerce. Tools yang saya gunakan saat itu ialah Laravel dan Bootstrap.
             </p>
-            <p>
+            <p className="mb-4">
               Pengalaman praktik kerja industri kedua yaitu di HUMiC Engineering Telkom University yang merupakan research center di lingkungan Universitas Telkom. Disini saya bersama teman-teman
               sekelompok merancang web research and innovation yang berfungsi untuk memuat semua research dari anggota HUMiC Engineering. Tools yang saya gunakan saat itu ialah Streamlit. Streamlit ini 
               adalah library python yang memudahkan pengembang dalam membangun tampilan website.
             </p>
-            <p>
+            <p className="mb-4">
               Selain itu juga saya saat ini sedang mengeksplor framework-framework lain seperti React.js, Vite, Tailwindcss, Vue.js, dan juga Angular.js agar saya dapat melihat bagaimana framework
               tersebut bekerja dan melihat bentuk dari susunan kode yang dipakai pada framework tersebut.
             </p>
