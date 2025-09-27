@@ -22,22 +22,11 @@ const Header: React.FC = () => {
     { href: '#contact', label: 'Contact' },
   ];
 
-  // Fungsi untuk smooth scroll
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault();
-    const targetId = href.replace('#', '');
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
-    }
-    setIsMenuOpen(false); // Tutup menu jika di mobile
-  };
-
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
-          &lt;JDev /&gt;
+          &lt;Web Portofolio /&gt;
         </a>
         <nav className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
