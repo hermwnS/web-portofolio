@@ -26,7 +26,7 @@ const projects: Project[] = [
     title: 'Tic Tac Toe',
     description: 'ini adalah permainan tic-tac-toe sederhana',
     imageUrl: 'https://picsum.photos/seed/project3/500/300',
-    tags: ['React', 'Firebase', 'GraphQL', 'Material-UI'],
+    tags: ['React', 'Vite'],
     liveUrl: '#',
     sourceUrl: 'https://github.com/hermwnS/tic-tac-toe.git',
   },
