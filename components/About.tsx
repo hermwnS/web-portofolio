@@ -29,6 +29,10 @@ const About: React.FC = () => {
               sekelompok merancang web research and innovation yang berfungsi untuk memuat semua research dari anggota HUMiC Engineering. Tools yang saya gunakan saat itu ialah Streamlit. Streamlit ini 
               adalah library python yang memudahkan pengembang dalam membangun tampilan website.
             </p>
+            <p>
+              Selain itu juga saya saat ini sedang mengeksplor framework-framework lain seperti React.js, Vite, Tailwindcss, Vue.js, dan juga Angular.js agar saya dapat melihat bagaimana framework
+              tersebut bekerja dan melihat bentuk dari susunan kode yang dipakai pada framework tersebut.
+            </p>
           </div>
         </div>
       </div>
