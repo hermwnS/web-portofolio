@@ -7,7 +7,7 @@ const projects: Project[] = [
     id: 1,
     title: 'E-commerce Platform',
     description: 'Web E-commerce ini berfungsi untuk memuat semua produk yang nantinya akan dibeli oleh masyarakat luas',
-    imageUrl: 'https://picsum.photos/seed/project1/500/300',
+    imageUrl: 'https://cdn-icons-png.flaticon.com/512/1170/1170576.png',
     tags: ['Bootstrap'],
     liveUrl: '#',
     sourceUrl: 'https://github.com/hermwnS/index-ecommerce.git',
@@ -16,7 +16,7 @@ const projects: Project[] = [
     id: 2,
     title: 'Catatan Belanja',
     description: 'ini adalah aplikasi catatan belanja untuk mendata barang apa yang harus di beli',
-    imageUrl: 'https://picsum.photos/seed/project2/500/300',
+    imageUrl: 'https://cdn-icons-png.flaticon.com/512/2921/2921222.png',
     tags: ['React', 'Vite'],
     liveUrl: '#',
     sourceUrl: 'https://github.com/hermwnS/catatan-belanjaan.git',
@@ -25,7 +25,7 @@ const projects: Project[] = [
     id: 3,
     title: 'Tic Tac Toe',
     description: 'ini adalah permainan tic-tac-toe sederhana',
-    imageUrl: 'https://picsum.photos/seed/project3/500/300',
+    imageUrl: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
     tags: ['React', 'Vite'],
     liveUrl: '#',
     sourceUrl: 'https://github.com/hermwnS/tic-tac-toe.git',
@@ -34,7 +34,7 @@ const projects: Project[] = [
     id: 4,
     title: 'Anime App',
     description: 'aplikasi yang memuat daftar anime-anime beserta penjelasan masing-masing anime',
-    imageUrl: 'https://picsum.photos/seed/project4/500/300',
+    imageUrl: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
     tags: ['React', 'Vite'],
     liveUrl: '#',
     sourceUrl: 'https://github.com/hermwnS/Anime-App.git',
@@ -43,7 +43,7 @@ const projects: Project[] = [
     id: 5,
     title: 'ToDo List App Sederhana',
     description: 'aplikasi untuk mencatat kegiatan sehari-hari',
-    imageUrl: 'https://picsum.photos/seed/project4/500/300',
+    imageUrl: 'https://cdn-icons-png.flaticon.com/512/2921/2921222.png',
     tags: ['Vue', 'Vite'],
     liveUrl: '#',
     sourceUrl: 'https://github.com/hermwnS/belajar-vue-js.git',
@@ -53,7 +53,7 @@ const projects: Project[] = [
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
     <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-all duration-300 group">
-      <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover" />
+      <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-contain" />
       <div className="p-6">
         <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
         <p className="text-gray-400 mb-4">{project.description}</p>
