@@ -16,6 +16,7 @@ const Hero: React.FC = () => {
             Saya adalah lulusan dari Universitas Telkom jurusan S1 Rekayasa Perangkat Lunak.
             Saya memiliki ketertarikan terhadap pengembangan website terutama pada bagian pengembangan frontend.
             Saya memiliki keingintahuan terhadap cara merancang frontend web dengan baik dan mudah dipahami oleh user.
+            Selain itu saya juga memiliki ketertarikan pada pengujian perangkat lunak (software testing) untuk memastikan kualitas dari sebuah aplikasi web.
           </p>
           <div className="flex justify-center space-x-4">
             <a
