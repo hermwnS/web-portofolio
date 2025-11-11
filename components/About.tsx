@@ -34,6 +34,11 @@ const About: React.FC = () => {
               Selain itu juga saya akan terus mengeksplor framework-framework lain seperti React.js, Vite, Tailwindcss, Vue.js, dan juga Angular.js agar saya dapat melihat bagaimana framework
               tersebut bekerja dan melihat bentuk dari susunan kode yang dipakai pada framework tersebut.
             </p>
+            <p className="mb-4">
+              Selain itu juga saya juga tertarik pada pengujian perangkat lunak untuk memastikan kualitas dari perangkat lunak
+              yang akan di release itu sudah sesuai dengan kemauan user. Saya memiliki pengalaman dalam pengujian perangkat lunak saat
+              saya mengerjakan tugas akhir kelompok saya yang berjudul "Pengujian Black Box Pada Aplikasi SIABDes MAXY Dengan Teknik Equivalence Partitioning".
+            </p>
           </div>
         </div>
       </div>
