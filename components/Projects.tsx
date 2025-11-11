@@ -14,7 +14,7 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Catatan Belanja',
+    title: 'Catatan Belanja (Belajar React Pemula)',
     description: 'ini adalah aplikasi catatan belanja untuk mendata barang apa yang harus di beli',
     imageUrl: 'https://cdn-icons-png.flaticon.com/512/2921/2921222.png',
     tags: ['React', 'Vite'],
@@ -23,7 +23,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Tic Tac Toe',
+    title: 'Tic Tac Toe (Belajar React Pemula)',
     description: 'ini adalah permainan tic-tac-toe sederhana',
     imageUrl: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
     tags: ['React', 'Vite'],
@@ -32,7 +32,7 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'Anime App',
+    title: 'Anime App (Belajar React Pemula)',
     description: 'aplikasi yang memuat daftar anime-anime beserta penjelasan masing-masing anime',
     imageUrl: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
     tags: ['React', 'Vite'],
@@ -41,7 +41,7 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: 'ToDo List App Sederhana',
+    title: 'ToDo List App Sederhana (Belajar Vue JS Pemula)',
     description: 'aplikasi untuk mencatat kegiatan sehari-hari',
     imageUrl: 'https://cdn-icons-png.flaticon.com/512/2921/2921222.png',
     tags: ['Vue', 'Vite'],
